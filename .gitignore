@@ -1,0 +1,33 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*token*
+
+# Local runtimes and caches
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local SciencePal proxy state and private run transcripts
+sciencepal_proxy.py
+SCIENCEPAL_PROXY_README.md
+cellmotion_demo/run_history.json
+cellmotion_demo/real_sciencepal_*.md
+cellmotion_demo/output/sciencepal_*.txt
+
+# Large local research/raw workspaces
+research/**/raw/
+research/**/results/*.csv
+research/**/results/*.jsonl
+research/**/results/*.events.jsonl
+cellmotion_demo/cellmotion_all_tracks.csv
+cellmotion_demo/cellmotion_*.zip
+
+# Generated local backups and diagnostics
+research/goal-screen/results/*_pre_gate.json
