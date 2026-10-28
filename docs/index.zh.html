@@ -9,7 +9,7 @@
 </style>
 </head>
 <body><main>
-<div class="top"><span class="brand">SciencePal · CellMotion Explorer</span><a class="lang" href="index.html">English</a></div>
+<div class="top"><span class="brand">SciencePal · CellMotion Explorer</span><span><a class="lang" href="knowledge.html">知识库</a> <a class="lang" href="index.html">English</a></span></div>
 <section class="hero"><div><span class="kicker">可复核的科学决策</span><h1>先审查证据，<br>再提出实验。</h1><p>SciencePal 将细胞运动轨迹转化为可追溯的研究判断：它不仅比较模型增益，也会主动发现数据边界、修正规则，并保留被排除的记录。</p><div class="links"><a class="primary" href="complete-case.html">查看完整案例</a><a href="report.html">打开最终 Report</a></div></div><img class="hero-art" src="assets/observed_tracks.png" alt="三细胞运动轨迹"></section>
 <section class="panel"><span class="kicker">工作流</span><h2>Audit → Forecast → Critic → Report</h2><p>四个阶段把原始轨迹、模型结果、失败样本和下一实验连接起来。</p><div class="flow"><div class="step"><b>01 · Audit</b><span>确认记录身份、帧连续性和数据边界。</span></div><div class="step"><b>02 · Forecast</b><span>比较几何基线与历史信息增益。</span></div><div class="step"><b>03 · Critic</b><span>找出不应被过度概括的记录和结论。</span></div><div class="step"><b>04 · Report</b><span>给出限制条件和下一步实验。</span></div></div></section>
 <section class="panel"><span class="kicker">v4 证据摘要</span><h2>门槛修正后的结果</h2><div class="metrics"><div class="metric"><strong>163 / 240</strong><span>合格记录中的稳定记录</span></div><div class="metric"><strong>16 帧</strong><span>最小轨迹长度门槛</span></div><div class="metric"><strong>15 条</strong><span>短轨迹被单独排除</span></div></div><p>稳定定义为六个预设设置中至少三个 history-aware gain 为正。少于 16 帧的记录标记为 <code>insufficient_trajectory_length</code>，不进入稳定性分母。</p></section>
