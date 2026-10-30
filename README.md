@@ -21,8 +21,6 @@ The static demo runs without credentials and uses a local evidence preview. The 
 3. Open **Knowledge base** to inspect the v4 rule and the v1–v4 snapshots. The public Pages version is read-only.
 4. Use the English switch in the header when you want the English interface. Raw SciencePal transcripts stay in their original language so the provenance is preserved.
 
-The main demo does not require a live question to be sent to SciencePal. The pages show completed, reproducible evidence so the walkthrough is not blocked by model or network latency. Live questions are an optional local workflow.
-
 ## What the demo shows
 
 - 255 tracking records across MCF10A and MDA-MB-231.
@@ -38,6 +36,6 @@ The live proxy and API key are intentionally excluded from this repository. To r
 
 Never place API keys, private handoff text, run transcripts, or local credentials in GitHub.
 
-## Originality and resources
+## Attribution and resources
 
-The project-specific workflow, scoring gate, knowledge-base versioning, evidence UI, and decision narrative were built for this submission. Model/API use, source datasets, external reference images, and open-source dependencies should be listed in the hackathon declaration and attribution notes.
+The workflow, scoring gate, knowledge-base versioning, evidence UI, and decision narrative are maintained in this repository. Model/API use, source datasets, external reference images, and open-source dependencies should be listed in the relevant attribution notes.
