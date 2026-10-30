@@ -2,6 +2,10 @@
 
 SciencePal turns cell-tracking evidence into an auditable research decision. The demo shows a complete **Audit → Forecast → Critic → Report** workflow, including a 16-frame trajectory-length gate that keeps short records out of the six-setting stability denominator.
 
+[![CellMotion Explorer demo](docs/assets/demo-home.png)](https://snorfyang.github.io/cellmotion-explorer/index.zh.html)
+
+*The CellMotion Explorer landing page combines the live trajectory view, track identity, and stability readout in one evidence-first interface.*
+
 ## Demo
 
 Open the public demo: <https://snorfyang.github.io/cellmotion-explorer/index.zh.html>
