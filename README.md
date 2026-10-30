@@ -4,11 +4,24 @@ SciencePal turns cell-tracking evidence into an auditable research decision. The
 
 ## Demo
 
-Enable GitHub Pages from the `docs/` folder on the default branch.
+Open the public demo: <https://snorfyang.github.io/cellmotion-explorer/index.zh.html>
+
+The English landing page is <https://snorfyang.github.io/cellmotion-explorer/index.html>.
+
+If you deploy a fork, enable GitHub Pages from the `docs/` folder on the default branch.
 
 Chinese landing page: `docs/index.zh.html`. The localized landing page translates the interface and evidence summary; linked SciencePal run transcripts remain in their original language for provenance.
 
 The static demo runs without credentials and uses a local evidence preview. The optional live SciencePal proxy is deliberately kept out of this public repository.
+
+## Recommended walkthrough
+
+1. Start on the Chinese landing page and select **完整案例**.
+2. Follow the four evidence stages: **Audit** checks input quality, **Forecast** compares geometry-only and history-aware features, **Critic** reviews failures and limits, and **Report** gives the next experiment.
+3. Open **Knowledge base** to inspect the v4 rule and the v1–v4 snapshots. The public Pages version is read-only.
+4. Use the English switch in the header when you want the English interface. Raw SciencePal transcripts stay in their original language so the provenance is preserved.
+
+The main demo does not require a live question to be sent to SciencePal. The pages show completed, reproducible evidence so the walkthrough is not blocked by model or network latency. Live questions are an optional local workflow.
 
 ## What the demo shows
 
